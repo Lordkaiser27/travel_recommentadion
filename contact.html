@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <nav>
+        <h1>TravelBloom</h1>
+
+        <ul>
+            <li><a href="travel_recommendation.html" id="home">Home</a></li>
+            <li><a href="about_us.html" id="aboutUS">About us</a></li>
+            <li><a href="contact.html" id="contact"> Contact us</a></li>
+
+
+        </ul>
+        
+    </nav>
+
+    <div class="sidebar">
+        <a href="https://www.instagram.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png" alt="Twitter/X"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play.png" alt="YouTube"></a>
+    </div>
+
+    <div class="contactUs">
+        <div>
+            <h4> CONTACT US</h4>        
+        <div id="subtitle">Get in touch</div>        
+        </div>
+        <form id="contactForm">
+            
+            <div>
+                <label for="name">Name</label><br>  
+                <input type="text" id="name" placeholder="Enter your name" name="name" required>
+            </div><br>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" required placeholder="Enter your Email">
+            </div> 
+            <div>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" rows="5" cols="40" required placeholder="Enter your message"></textarea>
+            </div>
+            <button class="submit" type="submit" onclick="submitBtn()">Submit</button>
+
+        </form>
+
+    </div>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <nav>
+        <h1>TravelBloom</h1>
+        <ul>
+            <li><a href="travel_recommendation.html" id="home">Home</a></li>
+            <li><a href="about_us.html" id="aboutUS">About us</a></li>
+            <li><a href="contact.html" id="contact">Contact us</a></li>
+            <li><input type="text" id="destination" placeholder="Enter a destination or keyword"></li>
+            <li><button id="btnSearch">Search</button></li>
+            <li><button id="btnClear">Clear</button></li>
+        </ul>
+    </nav>
+
+    <div class="sidebar">
+        <a href="https://www.instagram.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png" alt="Twitter/X"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="Facebook"></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play.png" alt="YouTube"></a>
+    </div>
+
+    <div class="container">
+        <div id="results" class="results-container"></div>
+        <div>
+            <h2>EXPLORE <br> DREAM <br> DESTINATION</h2>
+        </div>
+        <div>
+            <p id="mainParagraph">
+                It encourages exploration of unfamiliar <br>
+                territories, embracing diverse cultures and <br>
+                landscapes, while pursuing the desired <br>
+                destination that captivates the heart and <br>
+                ignites a sense of wonder.
+            </p>
+        </div>
+        <div id="recommendations"></div>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
